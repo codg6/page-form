@@ -13,7 +13,7 @@ export default function ThemeSwitcher() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null;
+  if (!mounted) return null; // avoid rehydration error
 
   return (
     <Tabs defaultValue={theme}>
@@ -24,7 +24,7 @@ export default function ThemeSwitcher() {
         <TabsTrigger value="dark" onClick={() => setTheme("dark")}>
           <MoonIcon className="h-[1.2rem] w-[1.2rem] rotate-90 transition-all dark:rotate-0" />
         </TabsTrigger>
-        <TabsTrigger value="sistem" onClick={() => setTheme("sistem")}>
+        <TabsTrigger value="system" onClick={() => setTheme("system")}>
           <DesktopIcon className="h-[1.2rem] w-[1.2rem]" />
         </TabsTrigger>
       </TabsList>

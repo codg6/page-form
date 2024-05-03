@@ -55,4 +55,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
         yarn add next-themes
 
+## BD Postgres utilizando Prisma
+
+    yarn add prisma --save-dev
+    npx prisma init
+
+    *comando para a criação das tabelas
+    npx prisma migrate dev
+
 
