@@ -63,4 +63,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     *comando para a criação das tabelas
     npx prisma migrate dev
 
+    *para coferir as tabelas localmente
+    npx prisma studio
+
 
