@@ -66,4 +66,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     *para coferir as tabelas localmente
     npx prisma studio
 
+## icones do projeto
+
+    yarn add react-icons --save
+
 
